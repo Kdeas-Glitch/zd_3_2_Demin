@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="48dp"
+    android:background="@drawable/sing_back">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:id="@+id/ImageFrag"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/aqua"
+        android:textSize="32sp"
+        android:focusable="true"
+        android:focusableInTouchMode="false" />
+    <TextView
+        android:id="@+id/descr_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/aqua"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:focusableInTouchMode="false" />
+    </LinearLayout>
+</LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/Back"
+        android:textSize="20sp"
+        android:minWidth="210dp"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:onClick="CloseFrag"/>
+
+</LinearLayout>

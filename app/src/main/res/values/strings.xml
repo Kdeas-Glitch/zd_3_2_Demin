@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Films</string>
+    <string name="Mad">MADVENTURE</string>
+    <string name="Redis">Rediscover the world</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Sing">Sing In</string>
+    <string name="MyFilms">Фильмы</string>
+    <string name="Found">Найти</string>
+    <string name="EditFilm">Введите фильм который хотите найти</string>
+    <string name="Back">Назад</string>
+</resources>
